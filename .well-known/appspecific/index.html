@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Auto-download public-key.pem</title>
+  <title>Auto-download com.tesla.3p.public-key.pem</title>
 </head>
 <body>
   <h1>Preparing your download...</h1>
@@ -18,7 +18,7 @@
           const url = URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = url;
-          a.download = 'public-key.pem';
+          a.download = 'com.tesla.3p.public-key.pem';
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);
